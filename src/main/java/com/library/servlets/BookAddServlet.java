@@ -18,6 +18,7 @@ public class BookAddServlet extends HttpServlet {
 //        request.setAttribute("categories", CategoryDAO.getAllCategory());
         RequestDispatcher dispatcher = request.getRequestDispatcher("/books/add.jsp");
         dispatcher.forward(request, response);
+        //salom
     }
 
     @Override
